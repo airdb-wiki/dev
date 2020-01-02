@@ -1,0 +1,406 @@
+
+<!DOCTYPE HTML>
+<html lang="en-us" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Github 如何提交 PR · airdb</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tags/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../tags.html" />
+    
+    
+    <link rel="prev" href="git_branch_manage.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Coding Style</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Part 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="git_branch_manage.html">
+            
+                <a href="git_branch_manage.html">
+            
+                    
+                    Git 分支的约束和管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="how_to_github_pull_request.html">
+            
+                <a href="how_to_github_pull_request.html">
+            
+                    
+                    Github 如何提交 PR
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Tags</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../tags.html">
+            
+                <a href="../tags.html">
+            
+                    
+                    tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Github 如何提交 PR</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x8D21;&#x732E;"><a name="&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x8D21;&#x732E;" class="plugin-anchor" href="#&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x8D21;&#x732E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x8D21;&#x732E;:</h1>
+<ul>
+<li>Github &#x63D0;&#x4EA4; PR, &#x5730;&#x5740;: github.com/airdb/fun</li>
+<li>Github &#x63D0;&#x4EA4; issues, &#x5730;&#x5740;: github.com/airdb/fun/issues</li>
+<li>&#x5199;&#x90AE;&#x4EF6;&#x7ED9; info@airdb.com</li>
+</ul>
+<h1 id="github-&#x5982;&#x4F55;&#x63D0;&#x4EA4;-pr"><a name="github-&#x5982;&#x4F55;&#x63D0;&#x4EA4;-pr" class="plugin-anchor" href="#github-&#x5982;&#x4F55;&#x63D0;&#x4EA4;-pr"><i class="fa fa-link" aria-hidden="true"></i></a>Github &#x5982;&#x4F55;&#x63D0;&#x4EA4; PR</h1>
+<ul>
+<li><p>step 1:</p>
+<p>Fork GitHub &#x4E0A;&#x7684; Repository &#x5230;&#x8D21;&#x732E;&#x8005;&#x7684; Repository</p>
+</li>
+<li><p>step 2:</p>
+<p>clone &#x4EE3;&#x7801;&#x5230;&#x672C;&#x5730; git clone github.com/airdb/fun</p>
+</li>
+<li><p>step 3:</p>
+<p>&#x68C0;&#x67E5;&#x5F53;&#x524D; Git Repository</p>
+</li>
+</ul>
+<pre class="language-"><code>    git remote  -v
+    origin    https://github.com/airdb/fun (fetch)
+    origin    https://github.com/airdb/fun (push)
+</code></pre><ul>
+<li><p>step 4:</p>
+<p>&#x65B0;&#x5EFA;&#x7ACB;&#x8D21;&#x732E;&#x8005; Git Repository &#x7684;&#x8FDE;&#x63A5;</p>
+</li>
+</ul>
+<pre class="language-"><code>    git remote add pullrequest https://github.com/deanchina/docs
+</code></pre><ul>
+<li><p>step 5:</p>
+<p>&#x65B0;&#x5EFA;&#x5DE5;&#x4F5C;&#x5206;&#x652F;</p>
+</li>
+</ul>
+<pre class="language-"><code>    git checkout -b devel
+
+    git branch
+    * devel
+      master
+</code></pre><ul>
+<li><p>step 6:</p>
+<p>&#x4FEE;&#x6539;&#x6587;&#x4EF6;</p>
+</li>
+<li><p>step 7:</p>
+<p>&#x63D0;&#x4EA4;&#x5230;&#x8D21;&#x732E;&#x8005; Github &#x4E0A;</p>
+</li>
+</ul>
+<pre class="language-"><code>    git add .
+    git commit -m&quot;pull request&quot;
+</code></pre><ul>
+<li><p>step 8</p>
+<p>&#x53D1;&#x8D77; PR (Pull Request)
+&#x767B;&#x5F55; GitHub Repository &#x70B9;&#x51FB;Pull Requests, &#x518D;&#x70B9;&#x51FB;New pull requests&#x6309;&#x94AE;</p>
+</li>
+</ul>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Copyright &#xA9; 2015-present airdb. </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> LastUpdated:  2020-01-02 17:26:18 </span> </footer>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="git_branch_manage.html" class="navigation navigation-prev " aria-label="Previous page: Git 分支的约束和管理">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../tags.html" class="navigation navigation-next " aria-label="Next page: tags">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Github 如何提交 PR","level":"1.2.2","depth":2,"next":{"title":"tags","level":"2.1","depth":1,"path":"tags.md","ref":"tags.md","articles":[]},"previous":{"title":"Git 分支的约束和管理","level":"1.2.1","depth":2,"path":"part1/git_branch_manage.md","ref":"part1/git_branch_manage.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters","anchors","disqus","github","editlink","prism","-highlight","-lunr","-search","search-plus","codesnippet","splitter","page-toc-button","image-captions","page-footer-ex","tags","multipart"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"airdb"},"github":{"url":"https://github.com/airdb/gitbook"},"editlink":{"label":"Edit This Page","multilingual":false,"base":"https://github.com/airdb/gitbook/blob/master/"},"page-footer-ex":{"copyright":"Copyright © 2015-present airdb.","markdown":false,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"LastUpdated: "},"splitter":{},"multipart":{},"codesnippet":{},"fontsettings":{"theme":"white","family":"sans","size":2},"page-toc-button":{"maxTocDepth":2,"minTocSize":2},"tags":{"placement":"bottom"},"sharing":{"facebook":true,"twitter":true,"google":true,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"expandable-chapters":{},"search-plus":{},"image-captions":{"caption":"image - _CAPTION_","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":11,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"toc":true},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[]},"title":"airdb","language":"en-us","gitbook":"*","description":"gitbook"},"file":{"path":"part1/how_to_github_pull_request.md","mtime":"2020-01-02T17:26:18.836Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-02T17:27:25.951Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
