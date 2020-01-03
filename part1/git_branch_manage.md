@@ -11,6 +11,8 @@
 
 # Git 分支的约束和管理
 
+来源：[dxyoo7](https://dxyoo7.github.io/2016/09/22/git-branch-manage/)
+
 ## 一、分支说明
 
 ### master
@@ -45,7 +47,7 @@ Release （发行）分支，是为发行正式的生产版本做准备。当开
 > * 必须要合并到哪个分支上：develop
 > * 分支的命名规范：除了 master，develop，release-，或者 hotfix- 以外的名字都可以
 
-Feature（功能） 分支，有时候也叫 Topic 分支。在这种分支上去开发新的功能。当开发功能的时候，这个功能属于哪个目标发行还不知道。功能如果一直在开发，对应的这个功能分支就可以一直存在，不过到最后还是要合并到 develop 分支上，或者如果不想要开发的这个功能了，可以直接扔掉它。  
+Feature（功能） 分支，有时候也叫 Topic 分支。在这种分支上去开发新的功能。当开发功能的时候，这个功能属于哪个目标发行还不知道。功能如果一直在开发，对应的这个功能分支就可以一直存在，不过到最后还是要合并到 develop 分支上，或者如果不想要开发的这个功能了，可以直接扔掉它。
 Feature 分支一般只在开发者的 repo 里，而不是在 origin 上。
 
 
@@ -69,8 +71,8 @@ Feature 分支一般只在开发者的 repo 里，而不是在 origin 上。
 如下图所示：
 ![branch](../images/git_branch.png)
 
-## 二、分支开发  
-新版本开始：每个人从最新develop上checkout一个本地分支做开发；  
+## 二、分支开发
+新版本开始：每个人从最新develop上checkout一个本地分支做开发；
 本阶段：禁止直接在develop上开发； 如预期需要协助，可以几个人协同一个远端分支开发；一般会在远端创建version-develop分支
 
 > * 开发周期：一个版本的迭代周期，我们分成3个里程碑\(v1, v2, v3\);
@@ -106,15 +108,15 @@ git checkout master
 git pull origin master --rebase
 git checkout -b develop
 git push origin develop
- 
- 
+
+
 # 合并一般的feature分支（推送到远程的feature分支）
 git checkout develop
 git pull origin develop --rebase
 git merge  --no-ff  feature
 git push origin develop
 
- 
+
 # 合并较小的feature分支（不推送到远程的feature分支）
 # 1)获取最新develpo分支内容
 git checkout develop
@@ -132,7 +134,7 @@ git push origin develop
 ```
 # 从develop切出realse分支
 git checkout -b release
- 
+
 # 合并develop分支
 git pull origin release --rebase
 git merge  --no-ff  develop
@@ -153,7 +155,7 @@ git checkout develop
 git pull origin develop  --rebase
 git merge --no-ff feature
 git push origin develop
- 
+
 3) #合并到develop(rebase)
 git checkout develop
 git pull origin develop  --rebase
@@ -173,14 +175,14 @@ git push origin develop
 git checkout master
 git pull origin master --rebase
 git checkout -b hotfix
- 
+
 # master合并分支hotfix
 git checkout master
 git pull origin master --rebase
 git merge  --no-ff  hotfix
 git tag V1.1
 git push origin master
- 
+
 # develop合并分支hotfix
 git checkout develop
 git pull origin develop --rebase

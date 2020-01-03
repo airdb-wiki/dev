@@ -2,6 +2,11 @@
   "title": "airdb",
   "description": "gitbook",
   "language": "en-us",
+  "links": {
+      "sidebar": {
+          "Home": "https://airdb.wiki"
+      }
+  },
   "plugins": [
     "expandable-chapters",
     "anchors",
