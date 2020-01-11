@@ -9,8 +9,4 @@
 
 ## s1
 
-s1 demo
-
-## s2
-
-s2 demo
+[如何在团队中做好Code Review](https://mp.weixin.qq.com/s/R9e-2MbfBAcc1kCOZNRuYw)
