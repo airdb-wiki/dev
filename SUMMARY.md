@@ -2,6 +2,8 @@
 
 ## Development Handbook
 
+* Tools
+	* [CI/CD](wiki/tools/cicd.md)
 * Coding Style
 	* [Golang 编码规范指南](wiki/go-coding-style.md)
 	* [中文文案排版指北](wiki/document.md)
