@@ -3,6 +3,7 @@
 ## Development Handbook
 
 * Tools
+	* [Command](wiki/tools/cmd.md)
 	* [CI/CD](wiki/tools/cicd.md)
 * Coding Style
 	* [Golang 编码规范指南](wiki/go-coding-style.md)
