@@ -2,6 +2,8 @@
 
 ## Development Handbook
 
+* Setup
+	* [Bash](wiki/setup/bash.md)
 * Tools
 	* [Command](wiki/tools/cmd.md)
 	* [CI/CD](wiki/tools/cicd.md)

@@ -11,4 +11,6 @@
 
 ## docker
 
-docker exec  -e COLUMNS=`tput cols` -e LINES=`tput lines`  -it airdb/go bash
+```
+sudo docker exec -it -e COLUMNS=$(tput cols) -e LINES=$(tput lines) airdb/go bash
+```
